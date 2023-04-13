@@ -54,12 +54,12 @@ var BgColor=Colors.white;
             child: Column(
 
               children: [
-                Text("BMI",style: TextStyle(fontSize: 35,
+                const Text("BMI",style: TextStyle(fontSize: 35,
                     fontWeight: FontWeight.w700),),
                 Padding(
                   padding: const EdgeInsets.all(25.0),
                   child: TextField(controller: WtInput,
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                       label: Text('Enter Your Weight'),
                       prefixIcon: Icon(Icons.line_weight)
                   ),
@@ -68,7 +68,7 @@ var BgColor=Colors.white;
                 ),Padding(
                   padding: const EdgeInsets.all(25.0),
                   child: TextField(controller: FtInput,
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                       label: Text('Enter Your Height'),
                       prefixIcon: Icon(Icons.height)
                   ),
@@ -77,7 +77,7 @@ var BgColor=Colors.white;
                 ),Padding(
                   padding: const EdgeInsets.all(25.0),
                   child: TextField(controller: InInput,
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                       label: Text('Enter Your Height in (Inch)'),
                       prefixIcon: Icon(Icons.height )
                   ),
@@ -122,8 +122,8 @@ var BgColor=Colors.white;
 
                   }
 
-                }, child: Text('Calculate')),
-                Text('  $Result',style: TextStyle(fontSize: 15,),),
+                }, child: const Text('Calculate')),
+                Text('  $Result',style: const TextStyle(fontSize: 15,),),
               ],
             ),
           ),
