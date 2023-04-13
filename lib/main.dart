@@ -60,7 +60,7 @@ var BgColor=Colors.white;
                   padding: const EdgeInsets.all(25.0),
                   child: TextField(controller: WtInput,
                   decoration: const InputDecoration(
-                      label: Text('Enter Your Weight'),
+                      label: Text('Enter Your Weight in Kg!!'),
                       prefixIcon: Icon(Icons.line_weight)
                   ),
                   keyboardType: TextInputType.number,
@@ -69,7 +69,7 @@ var BgColor=Colors.white;
                   padding: const EdgeInsets.all(25.0),
                   child: TextField(controller: FtInput,
                   decoration: const InputDecoration(
-                      label: Text('Enter Your Height'),
+                      label: Text('Enter Your Height in (Feet)'),
                       prefixIcon: Icon(Icons.height)
                   ),
                   keyboardType: TextInputType.number,
